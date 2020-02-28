@@ -1,0 +1,38 @@
+#formulario{
+    display: flex;
+    height: 600px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+#formulario .producto{
+    width: 30%;
+    padding: 20px 30px;
+    height: 300px;
+    margin-right: 20px;
+    -webkit-box-shadow: 2px 10px 48px -9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 10px 48px -9px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 10px 48px -9px rgba(0, 0, 0, 0.75);
+    text-align: center;
+}
+#formulario form{
+    padding: 30px 30px;
+    -webkit-box-shadow: 2px 10px 48px -9px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 10px 48px -9px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 10px 48px -9px rgba(0, 0, 0, 0.75);
+}
+#formulario form #boton{
+    margin-top: 20px;
+    background-color: #7acc2d;
+    border-radius: 10px;
+    border-color: #7acc2d;
+    padding: 10px 30px;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+footer{
+    margin-top: 100px;
+}

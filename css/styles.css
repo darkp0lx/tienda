@@ -1,0 +1,136 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Saira", sans-serif;
+}
+nav {
+  background: #7acc2d;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .logo{
+  margin-left: 20px;
+}
+.nav_options ul {
+  display: flex;
+}
+.nav_options ul li {
+  list-style: none;
+  margin: 10px;
+}
+.nav_options ul a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  margin: 10px;
+}
+.nav_options ul a:hover {
+  color: #fff;
+}
+.main_section {
+  text-align: center;
+  padding: 7% 20% 0%;
+}
+.products {
+  background-image: url(../images/curve.png);
+  background-size: cover;
+  justify-content: center;
+
+  display: flex;
+}
+.products img {
+  width: 275px;
+  height: 155px;
+}
+.product {
+  background: #fff;
+  text-align: center;
+  width: 20%;
+  -webkit-box-shadow: 3px 0px 36px -5px rgba(0, 0, 0, 0.96);
+  -moz-box-shadow: 3px 0px 36px -5px rgba(0, 0, 0, 0.96);
+  box-shadow: 3px 0px 36px -5px rgba(0, 0, 0, 0.96);
+  padding: 10px 30px;
+  margin: 30px;
+}
+.product a {
+  text-decoration: none;
+  background-color: #7acc2d;
+  padding: 5px 80px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.product a:hover {
+  background-color: #5f9b28;
+}
+
+/* recomendaciones */
+#recomendaciones {
+  padding-top: 100px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+#recomendaciones .recomendacion {
+  width: 30%;
+  text-align: center;
+  margin: auto;
+}
+/* recomendaciones fin */
+
+/* inicio menciones */
+#menciones {
+  margin-top: 100px;
+}
+#menciones h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.contenedor-mencion {
+  display: flex;
+}
+.mencion {
+  padding: 15px 20px;
+  width: 20%;
+  margin: auto;
+  text-align: center;
+  -webkit-box-shadow: 2px 10px 48px -9px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 10px 48px -9px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 10px 48px -9px rgba(0, 0, 0, 0.75);
+} /* fin menciones */
+
+/* inicio footer */
+footer {
+  background-color: #313337;
+  margin-top: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .redes ul {
+  display: flex;
+}
+footer .firma,
+.firma a {
+  color: white;
+}
+footer .firma h3{
+  margin: 0;
+}
+.firma {
+  margin-left: 20px;
+}
+.firma a {
+  text-decoration: none;
+}
+footer .redes li {
+  list-style: none;
+  margin: 20px;
+  font-size: 40px;
+  color: white;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/formulario.css">
+    <link href="https://fonts.googleapis.com/css?family=Saira&display=swap" rel="stylesheet">
+    <title>Brand</title>
+</head>
+
+<body>
+    <!-- aqui empieza el navbar -->
+    <nav>
+        <div class="logo">
+            <img src="images/logo.png" alt="">
+        </div>
+        <div class="nav_options">
+            <ul>
+                <li><a href="faqs.html">faqs</a></li>
+                <li><a href="productos.html">productos y descripcion</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- aqui acaba el navbar -->
+    <section id="formulario">
+        <div class="producto">
+            <img src="images/box1.png" alt="">
+            <h3>Producto 1</h3>
+            <p>Miles de productos hay en el mercado, pero nada como una caja con gatitos</p>
+        </div>
+        <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=LJKETNLZ82UBG" method="POST">
+            <label for="name">Nombre</label><br>
+            <input type="text" name="name" class="data"><br>
+            <label for="email">Mail</label><br>
+            <input type="email" name="email"  class="data"><br>
+            <label for="phone">Teléfono</label><br>
+            <input type="number" name="phone"  class="data"><br>
+            <input id="boton" type="submit" value="Confirmar Pago">
+        </form>
+    </section>
+    <footer>
+        <div class="firma">
+            <h3>diseñado por ©Hector Barazorda</h3>
+            <a href="mailto:polbarazorda@gmail.com">polbarazorda@gmail.com</a>
+        </div>
+        <div class="redes">
+            <ul>
+                <li class="red"><i class="fab fa-facebook"></i></li>
+                <li class="red"><i class="fab fa-instagram"></i></li>
+                <li class="red"><i class="fab fa-whatsapp-square"></i></i></li>
+                <li class="red"><i class="fab fa-github-square"></i></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/890939ce75.js" crossorigin="anonymous"></script>
+
+    <script src="javascript/main.js"></script>
+</body>
+
+</html>

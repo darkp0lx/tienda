@@ -1,0 +1,12 @@
+.productos{
+    width: 90%;
+    margin: auto;
+}
+.producto{
+    margin: 40px;
+    display: flex;
+}
+.producto img{
+    width: 300px;
+    margin-right: 20px;
+}
